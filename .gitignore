@@ -1,0 +1,10 @@
+data
+weights
+output
+verify
+
+.vscode
+__pycache__
+**/__pycache__
+*.pyc
+**.pyc
