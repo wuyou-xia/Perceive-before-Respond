@@ -24,7 +24,7 @@ Pytorch training/validation code for our ACM Multimedia 2024 work.
 ## Data 
 1.  Please download the StickerChat dataset from [here](https://github.com/gsh199449/stickerchat) and update the `image_root` in `config/SRS.yaml`.
 
-2. Please place the `release_train.json`, `release_val.json` and `release_test.json` files downloaded in the previous step in the `data` folder. Then run `data/make_senti.py`, which saves the cnsenti sentiment analysis results for each sentence in `release_train_senti.pkl`.
+2. Please place the `release_train.json`, `release_val.json` and `release_test.json` files downloaded in the previous step in the `data` folder. Or directly download the `data` folder from Baidu Netdisk [here](https://pan.baidu.com/s/1AQYkYP8OgbNC8cXYsdhPSQ?pwd=wc6i). Then run `data/make_senti.py`, which saves the cnsenti sentiment analysis results for each sentence in `release_train_senti.pkl`.
 
 3. Please download the pre-trained model weights for image encoder from [here](https://github.com/salesforce/ALBEF) and place `ALBEF.pth` in the `./weight` folder.
 
